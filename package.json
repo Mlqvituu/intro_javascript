@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Mlqvituu/intro_javascript/issues"
   },
-  "homepage": "https://github.com/Mlqvituu/intro_javascript#readme"
+  "homepage": "https://github.com/Mlqvituu/intro_javascript#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
 }

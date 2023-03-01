@@ -19,12 +19,23 @@ console.log("Olá estou programando em javascript");
    // exemplo de variável do tipo lista de valores
    let cores_favoritas = ['azul', 'preto', 'vermelho'];
    // exemplo de variável que armazena um objeto
-   let endereço ={
+   let endereco ={
        'logradouro'       : 'Rua',
        'nome_logradouro'  : 'brasil',
-       'número'           : '22 A',
+       'numero'           : '22 A',
        'bairro'           : 'ibirapuera',
        'cidade'           :  'tupã'
    };
    let covid;
    let dengue = null;
+
+
+console.log('Nome: Victor hugo costa da silva ' + nome);
+console.log('Idade: 17 ' + idade);
+console.log('Altura: 1.67 ' + altura);
+console.log('Trabalha: true' + trabalha);
+console.log('Cor favorita: Vermelho ' + corFavorita);
+console.log('Cor favoritas: Vermelho;azul,preto '+ cores_favoritas[0] + ', ' + cores_favoritas[1] + ', ' + cores_favoritas[2]);
+console.log('Endereço: Ibirapuera' + endereco.logradouro + ' ' + endereco.nome_logradouro + ', ' + endereco.numero + ' - ' + endereco.bairro + ' ' + ' - ' + endereco.cidade);
+console.log('Covid:' + covid);
+console.log('Dengue: ' + dengue); 
