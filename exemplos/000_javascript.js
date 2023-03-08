@@ -36,6 +36,6 @@ console.log('Altura: 1.67 ' + altura);
 console.log('Trabalha: true' + trabalha);
 console.log('Cor favorita: Vermelho ' + corFavorita);
 console.log('Cor favoritas: Vermelho;azul,preto '+ cores_favoritas[0] + ', ' + cores_favoritas[1] + ', ' + cores_favoritas[2]);
-console.log('Endereço: Ibirapuera' + endereco.logradouro + ' ' + endereco.nome_logradouro + ', ' + endereco.numero + ' - ' + endereco.bairro + ' ' + ' - ' + endereco.cidade);
+console.log('Endereço: Ibirapuera ' + endereco.logradouro + ' ' + endereco.nome_logradouro + ', ' + endereco.numero + ' - ' + endereco.bairro + ' ' + ' - ' + endereco.cidade);
 console.log('Covid:' + covid);
 console.log('Dengue: ' + dengue); 
