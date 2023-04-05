@@ -5,7 +5,7 @@ const entrada = require('prompt-sync')();
 let nome = entrada('Digite seu nome: ');
 let letra = nome.charAt(0).toLocaleLowerCase;
 
-    let vogais = /[aeiou]/;
+    let vogais = /[aeiou]/; //regex
 
     if (vogais.test(letra)) {
        console.log('A 1 letra do seu nome é uma vogal!');
