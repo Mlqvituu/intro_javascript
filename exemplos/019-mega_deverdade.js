@@ -1,13 +1,13 @@
-/*
-    Programa da mega-sena
-    Crie um programa que compare o resultado de dois arrays
-*/
-  
-const entrada = require('prompt-sync') ();
+const entrada = require('prompt-sync')();
 
-let resMegaSena = [5, 15, 25, 35, 45, 55];
-let meuJogo = [];
+let resMegaSena = [];
+letMeujogo = [];
 let acertos = 0;
+
+for (let i = 0; i < 6; i++) {
+    const numero = math.floor(math.random() * 60) + 1;
+    resMegaSena.push(numero);
+}
 
 
 
@@ -23,6 +23,15 @@ for (let nMega = 0; nMega < resMegaSena.length; nMega++) {
 
         }
     }
+}
+ // mostrar resultado
+mensagem = 'Seu jogo: ';
+
+for (let n = 0; n < meuJogo.length; n++) {
+    mensagem = mensagem + meuJogo[n] +
+    (meuJogo.length == n + 1 ? '' : ' - ')
+
+
 }
 
 console.log('Voce acertou ' + acertos + ' número' + (acertos > 1 ? 's' : ''));
