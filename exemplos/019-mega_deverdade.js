@@ -9,8 +9,6 @@ for (let i = 0; i < 6; i++) {
     resMegaSena.push(numero);
 }
 
-
-
 for (let i =  0; i  <  6; i++) {
     let numero = entrada('Digite o ' + i + 'º nº do jogo: ');
     meuJogo.push(numero);
@@ -20,6 +18,11 @@ for (let nMega = 0; nMega < resMegaSena.length; nMega++) {
     for (let nJogo = 0; nJogo < meuJogo.length; nJogo++) {
         if (resMegaSena[nMega] == meuJogo[nJogo]) {
             acertos++;
+
+            console.log(mensagem);
+            console.log('');
+            console.log('Você acertou ' + acertos + ' número' + (acertos > 1 ? 's' : ''));
+
 
         }
     }
@@ -31,6 +34,8 @@ for (let n = 0; n < meuJogo.length; n++) {
     mensagem = mensagem + meuJogo[n] +
     (meuJogo.length == n + 1 ? '' : ' - ')
 
+   // log mostrar resultado
+mensagem = 'Resultado: ';
 
 }
 
